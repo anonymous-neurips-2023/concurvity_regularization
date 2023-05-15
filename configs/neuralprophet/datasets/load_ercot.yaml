@@ -1,0 +1,7 @@
+dataset: mxm_research.datasets.timeseries.neuralprophet.load_ercot
+name: load_ercot
+date_column: ds
+target_column: y
+normalize: true
+create_split: true
+val_plot_length: 84

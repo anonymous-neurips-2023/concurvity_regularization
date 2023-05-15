@@ -1,0 +1,8 @@
+dataset: mxm_research.datasets.timeseries.autoformer.ETTh1
+name: ETTh1
+date_column: date
+target_column: OT
+external_regressor_columns: [HUFL, HULL, MUFL, MULL, LUFL, LULL]
+normalize: true
+create_split: false
+val_plot_length: 84
